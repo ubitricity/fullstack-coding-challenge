@@ -2,7 +2,7 @@
 **Carpark Ubi**
 ​
 ## Description:
-    The task is to implement a simple (frontend & backend) application to manage the charging points installed at Carpark Ubi.
+The task is to implement a simple (frontend & backend) application to manage the charging points installed at Carpark Ubi.
     Carpark Ubi has 10 charging points installed. When a car is connected it consumes either 20 Amperes (fast charging) or 10 Amperes (slow charging). 
     Carpark Ubi installation has an overall current input of 100 Amperes so it can support fast charging for a maximum of 5 cars or slow charging for a maximum of 10 cars at one time.
     A charge point notifies the application when a car is plugged or unplugged.
@@ -24,8 +24,9 @@
         3. Include at least one unit test.
 ​
 ## Examples:
-    ```
+```
     Car is plugged into CP1
+```
 ​
     Report (frontend): 
     CP1 OCCUPIED 20A
