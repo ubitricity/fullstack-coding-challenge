@@ -3,12 +3,12 @@
 
 ## Description:
 The task is to implement a simple (frontend & backend) application to manage the charging points installed at Carpark Ubi.
-    Carpark Ubi has 10 charging points installed. When a car is connected it consumes either 20 Amperes (fast charging) or 10 Amperes (slow charging). 
-    Carpark Ubi installation has an overall current input of 100 Amperes so it can support fast charging for a maximum of 5 cars or slow charging for a maximum of 10 cars at one time.
-    A charge point notifies the application when a car is plugged or unplugged.
-    The application must distribute the available current of 100 Amperes among the charging points so that when possible all cars use fast charging and when the current is not sufficient some cars are switched to slow charging. 
-    Cars which were connected earlier have lower priority than those which were connected later.
-    The application must also provide a report with a current state of each charging point returning a list of charging point, status (free or occupied) and - if occupied – the consumed current.
+Carpark Ubi has 10 charging points installed. When a car is connected it consumes either 20 Amperes (fast charging) or 10 Amperes (slow charging). 
+Carpark Ubi installation has an overall current input of 100 Amperes so it can support fast charging for a maximum of 5 cars or slow charging for a maximum of 10 cars at one time.
+A charge point notifies the application when a car is plugged or unplugged.
+The application must distribute the available current of 100 Amperes among the charging points so that when possible all cars use fast charging and when the current is not sufficient some cars are switched to slow charging. 
+Cars which were connected earlier have lower priority than those which were connected later.
+The application must also provide a report with a current state of each charging point returning a list of charging point, status (free or occupied) and - if occupied – the consumed current.
 
 ## Requirements:
 ### Backend:
@@ -34,7 +34,7 @@ CP2 AVAILABLE
 ...
 CP10 AVAILABLE
 ```
-​
+
 ```
 Cars have been plugged into CP1, CP2, CP3, CP4, CP5 and CP6
 
@@ -51,5 +51,5 @@ CP10 AVAILABLE
 ```
 ​
 ## Deliverables:
-    Link to the git repository with the implementation and the documentation on how to call the API (Swagger/Postman collection/text description).
-    Please add any details about your ideas and considerations to this README and add it to the repository.
+Link to the git repository with the implementation and the documentation on how to call the API (Swagger/Postman collection/text description).
+Please add any details about your ideas and considerations to this README and add it to the repository.
